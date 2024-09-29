@@ -16,7 +16,7 @@ def predict(inputs, model_path='Animal_Classification.h5'):
         pred = model.predict(inputs)
         return pred
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occured: {e}")
 
 labels = {0: "Cat",
           1: "Dog",
